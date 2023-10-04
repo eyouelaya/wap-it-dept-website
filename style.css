@@ -1,0 +1,224 @@
+a {
+    text-decoration: none;
+    color: rgb(37, 163, 206);
+}
+
+body {
+    background-color: #f5f4f4;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: black;
+
+}
+
+.navbar {
+    background-color: white;
+    width: max-width;
+}
+
+
+.right-nav {
+    flex-direction: right;
+    float: right;
+    display: inline;
+    margin-top: 10px;
+    background-color: white;
+
+}
+
+.right-nav a {
+    margin-right: 10px;
+    font-size: x-small;
+}
+
+.right-nav a {
+    color: grey;
+}
+
+.header-logo {
+    display: inline;
+}
+
+.header {
+    display: inline;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.header a {
+    color: black;
+    border: gray;
+    border-style: none none none solid;
+    border-width: 1.5px;
+    padding-left: 8px;
+    font-size: 13px;
+}
+
+.header-logo img {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.welcome {
+    background-color: #115156;
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
+
+.welcome h1 {
+    font-weight: 100;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.left-box {
+    width: 50%;
+    display: inline;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 60px;
+}
+
+.horizontal-line {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.horizontal-line hr {
+    flex: 1;
+}
+
+.horizontal-line span {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+    color: grey;
+}
+
+
+.left-box>p {
+    color: gray;
+    font-size: smaller;
+}
+
+.azure-img {
+    width: 60px;
+    height: 25px;
+    align-items: center;
+    padding: 2px;
+}
+
+.azure-div {
+    background-color: white;
+    align-items: center;
+    text-align: center;
+}
+
+form>label,
+input,
+button {
+    width: 100%;
+    color: grey;
+    font-size: 12px;
+    padding: 7px 3px 7px 3px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: none;
+}
+
+form>button {
+    border-radius: 5px;
+    margin-top: 3px;
+    color: white;
+}
+
+.checkbox-forgotpass {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    width: 100%;
+    align-items: center;
+}
+
+.checkbox-forgotpass input {
+    display: flex;
+    width: auto;
+}
+
+.checkbox-forgotpass span {
+    display: flex;
+    width: auto;
+}
+
+.checkbox {
+    align-items: center;
+    display: flex;
+    width: 100%;
+    color: gray;
+}
+
+.forgot-pass {
+    width: 40%;
+
+}
+
+.right-box {
+    width: 50%;
+    display: inline;
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 20px;
+    font-size: 12px;
+    border: rgb(218, 214, 214);
+    border-width: 1px;
+    border-style: none none none solid;
+}
+
+
+.right-box>button {
+    color: white;
+    margin-top: 0px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    width: auto;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(240, 240, 240);
+}
+
+footer a {
+    float: left;
+    padding-left: 10px;
+}
+
+.copyright {
+    font-size: 11px;
+    float: right;
+    padding-right: 10px;
+
+
+}
