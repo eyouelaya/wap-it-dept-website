@@ -222,3 +222,17 @@ footer a {
 
 
 }
+
+@media screen and (max-width: 497) {
+    .navbar {
+        display: block;
+    }
+
+    .right-nav {
+        display: block;
+    }
+
+    .header {
+        display: block;
+    }
+}
