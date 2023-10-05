@@ -19,12 +19,11 @@ button {
 
 .navbar {
     background-color: white;
-    width: max-width;
+    width: 100%;
 }
 
 
 .right-nav {
-    flex-direction: right;
     float: right;
     display: inline;
     margin-top: 10px;
@@ -220,20 +219,4 @@ footer a {
     font-size: 11px;
     float: right;
     padding-right: 10px;
-
-
-}
-
-@media screen and (max-width: 497) {
-    .navbar {
-        display: block;
-    }
-
-    .right-nav {
-        display: block;
-    }
-
-    .header {
-        display: block;
-    }
 }
